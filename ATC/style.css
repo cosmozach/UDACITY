@@ -1,0 +1,82 @@
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.param { /* This is the overal boundaries of the card */
+    border: 5px solid rgb(231, 201, 32);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    width: 300px;
+    background-image: url(images/purplebg.jpg);
+
+}
+.right { /* This is the top right box */
+ border: 5px double;
+ text-shadow: 1px 1px 2px black;
+ color: gold;
+ padding: 2px;
+ float: right;
+ background-image: url(images/goldbg.jpg);
+ background-size: 5em;
+ background-position: -40%;
+ box-shadow: 3px 3px 5px rgb(43, 43, 43);
+ border-radius: 4px;
+}
+
+.paw { /* This is the paw prints next to the key info/stats */
+    position: fixed;
+font-size: 4em;
+transform: translate(230%, -195%);
+}
+.left { /* This is the top left box with animal name */
+    border: 5px double;
+    text-shadow: 1px 1px 2px black;
+    padding: 2px;
+    float: left;
+    background-image: url(images/dark\ purplebg.jpg);
+    background-size: 5em;
+    background-position: center;
+    box-shadow: 3px 3px 5px rgb(43, 43, 43);
+    border-radius: 4px;
+}
+
+
+.center { /* This helped me keep cat image central */
+    transform: translate(-51%, -5%);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+}
+img {
+
+    border: 3px outset rgb(231, 161, 32);
+    margin-top: 10px;
+    width: 300px; /* image has to be 300px */
+    box-shadow: 3px 3px 5px rgb(43, 43, 43);
+    border-radius: 4px;
+}
+.info { /* all the info below the image */
+    border: 3px outset rgb(231, 161, 32);
+    padding-right: 7px;
+    padding-left: 7px;
+    margin-top: -5px;
+    text-align: justify;
+    background-image: url(images/purplebg.jpg);
+    box-shadow: 3px 3px 5px rgb(43, 43, 43);
+    border-radius: 4px;
+}    
+
+    
+ul { /* removes list dots and removes indentation */
+    padding: 0;
+    list-style: none;
+}
+
+.rounded { /* rounds the boxes */
+    border-style: solid;
+    border-color: rgb(80, 69, 129);
+}
